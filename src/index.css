@@ -1,0 +1,10 @@
+.box-container {
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(4, 1fr);
+}
+
+.box {
+	transform: rotateY(180deg);
+	transition: all ease-in 0.2s;
+}
