@@ -1,9 +1,9 @@
 import React from 'react';
 
 
-const Card = props => (
+const Card = ({ image, name })=> (
 	 <div className="box border border-primary rounded">
-		 <img className="img w-100" src={props.image} alt={props.name} />
+		 <img className="img w-100" src={image} alt={name} />
 	 </div>
 )
 
